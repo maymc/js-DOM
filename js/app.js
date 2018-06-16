@@ -64,8 +64,34 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
+var divElem2 = document.createElement("div");
+divElem2.id = "alias8";
+divElem2.innerHTML = "Old Man Riverwalk";
+document.getElementById("aliasParent").appendChild(divElem2);
 
 
 //Final Boss
 /*9. Create your own profile.*/
+var nameDiv = document.createElement("div");
+nameDiv.id = "name9";
+nameDiv.innerHTML = "M";
+var blockClass = document.getElementsByClassName("block3 col-sm-4");
+blockClass[2].appendChild(nameDiv);
 
+var posDiv = document.createElement("div");
+posDiv.id = "position9";
+posDiv.innerHTML = "PM";
+var blockClass = document.getElementsByClassName("block3 col-sm-4");
+blockClass[2].appendChild(posDiv);
+
+var aliasDiv = document.createElement("div");
+aliasDiv.id = "alias9";
+aliasDiv.innerHTML = "tiny one";
+var blockClass = document.getElementsByClassName("block3 col-sm-4");
+blockClass[2].appendChild(aliasDiv);
+
+var bioDiv = document.createElement("div");
+bioDiv.id = "bio9";
+bioDiv.innerHTML = "I like to travel";
+var blockClass = document.getElementsByClassName("block3 col-sm-4");
+blockClass[2].appendChild(bioDiv);
