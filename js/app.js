@@ -25,13 +25,12 @@ Concatenation*/
 document.getElementById("alias3").innerHTML = "Concatenation";
 
 
-
-
 /*4. Prince
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-
+var profileElem = document.getElementsByClassName("profile");
+profileElem[0].innerHTML = "Purple";
 
 /*5. Bruce Lee
 
