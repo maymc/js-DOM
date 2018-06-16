@@ -36,7 +36,8 @@ profileElem[0].innerHTML = "Purple";
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+var profileElem2 = document.getElementsByClassName("profile");
+profileElem2[1].innerHTML = "Knowing is not enough, we must apply. Willing is not enough, we must do.";
 
 /*6. Samuel L Jackson
 
