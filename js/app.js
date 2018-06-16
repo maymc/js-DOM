@@ -43,7 +43,8 @@ profileElem2[1].innerHTML = "Knowing is not enough, we must apply. Willing is no
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var aliasElem = document.getElementsByClassName("alias");
+aliasElem[2].innerHTML = "Nick Fury";
 
 /*7. Peter Griffin
 
@@ -51,6 +52,10 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
+var divElem = document.createElement("div");
+divElem.id = "name7";
+divElem.innerHTML = "Peter Griffin";
+document.getElementById("nameParent").appendChild(divElem);
 
  
 /*8. Tim Duncan
